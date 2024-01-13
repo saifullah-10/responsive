@@ -9,7 +9,6 @@
 
  .w {
      width: 75%;
-     max-width: 1440px;
      margin: 0 auto;
  }
 
@@ -289,7 +288,59 @@
  .experiance>h1>span {
      display: block;
  }
+/* facts style start */
+.facts_area{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
+.facts_text{
+    width: 50%;
+}
+.facts_text>h1{
+    color:  #131313;
+font-size: 45px;
+font-weight: 700;
+}
+.facts_text>p{
+    color: #727272;
+font-size: 16px;
+font-weight: 400;
+line-height: 162.5%;
+}
+.facts_elements{
+display: flex;
+width: 96%;
+justify-content: space-around;
+margin-top: 80px;
+}
+
+
+.facts_box{
+    padding: 20px;
+    border-radius: 8px;
+border: 1px solid #FF900E;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.facts_box>img{
+    margin-bottom: 10px;
+}
+.facts_box>h1{
+    color: #424242;
+font-size: 45px;
+font-weight: 600;
+line-height: 1.5em;
+}
+.facts_box>p{
+    color: #727272;
+font-size: 20px;
+font-weight: 600;
+line-height: 2em;
+}
  @media only screen and (max-width: 576px) {
 
      .header_main,
@@ -369,7 +420,34 @@
 .head_text>h1{
     font-size: 2.5em;
 }
-
+/* facts responsive style */
+.facts_area{
+    display: flex;
+    flex-direction: column;
+}
+.facts_text{
+    width: 70%;
+    margin: 0 auto;
+}
+.facts_text>h1{
+    color:  #131313;
+font-size: 30px;
+font-weight: 700;
+}
+.facts_text>p, .facts_text>h1{
+    text-align: center;
+}
+.facts_elements{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.facts_box{
+    width: 70%;
+    margin: 0 auto 30px auto;
+}
+.facts_box>p{
+    font-size: 1em;
+}
  }
 
  @media only screen and (min-width: 601px) and (max-width: 930px) {
@@ -451,5 +529,26 @@
      .head_text>h1{
          font-size: 2.5em;
      }
+     /* facts responsive style */
+.facts_area{
+    display: flex;
+    flex-direction: column;
+}
+.facts_text{
+    width: 70%;
+    margin: 0 auto;
+}
+.facts_text>p, .facts_text>h1{
+    text-align: center;
+}
+.facts_elements{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.facts_box{
+    width: 70%;
+    margin: 0 auto 30px auto;
+}
+
 
  }
