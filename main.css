@@ -41,6 +41,9 @@ body{
     margin: 0 2em;
     
 }
+.nav>ul>li>a{
+    color: black;
+}
 .header_container{
     width: 100%;
     background-color: rgba(255, 144, 14, 0.10);
@@ -109,7 +112,7 @@ cursor: pointer;
     }
     .header_img{
         /* display: block; */
-        width: 95%;
+        width: 96%;
         margin: 0 auto;
     }
     .header_img>img{
