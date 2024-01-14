@@ -551,6 +551,7 @@ line-height: 40px;
 
      /* copyright responsive style */
      .copyright {
+        padding: 10px 2px 10px 2px;
          margin-bottom: 50px;
      }
 
